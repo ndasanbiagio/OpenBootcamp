@@ -1,0 +1,46 @@
+/* Estilos para colores */
+.colores {
+    color: red;
+}
+
+.color-hexadecimal {
+    color: #757E4E;
+}
+
+.color-rgb {
+    color: rgb(53,71,226);
+}
+
+.fondo {
+    /* background-color: aqua; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOCMXuW6lq6qNBF0ZadysLZ_8IKuudtvGdvQ&usqp=CAU");
+    background-position: right center;
+}
+
+.fondo-interno {
+    background-image: url(./imagenes/images.jpg);
+    background-position: bottom;
+}
+
+/* tamaños */
+.ancho {
+    background-color: coral;
+    width: 300px;
+}
+
+.altura {
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
+}
+
+.tarjeta {
+    border-style: dashed;
+    border-color: chartreuse;
+    border-width: 4px;
+    width: 250px;
+    height: 100px;
+    border-top: none;
+    padding: 40px 30px 20px 10px;
+    margin:  10px 20px;
+}

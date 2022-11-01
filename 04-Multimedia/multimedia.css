@@ -1,0 +1,20 @@
+.imagen-principal {
+    width: 100vw; /* es el ancho de la pantalla*/
+    opacity: 0.3; /* opacidad va entre 0 y 1 */ 
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.imagen-galeria {
+    width: 150px;
+}
+
+.imagen-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}

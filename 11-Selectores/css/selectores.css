@@ -1,0 +1,13 @@
+.p-contendor {
+    color: yellowgreen;
+}
+
+#boton-contenedor {
+    background-color: yellow;
+}
+
+body section.main .contendor p{
+    color: blue;
+}
+
+/*Seudo Clases */

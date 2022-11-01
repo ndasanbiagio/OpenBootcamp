@@ -1,0 +1,35 @@
+/* PROPIEDAD : VALOR */
+h1 {
+    color: red;
+    font-size: 30px;
+}
+/* comentario - lee de abajo hacia arriba*/
+p{
+    color:aqua ;
+    color: steelblue;
+}
+
+/* SELECTORES */
+/*
+ID va por " # " *********  ---------   CLASS va por " . " *********
+*/ 
+#primerNoticia {
+    color: yellowgreen;
+    font-size: 16px;
+}
+
+#segundaNoticia {
+    color: red;
+}
+
+.encabezado {
+    color: chartreuse;
+}
+
+*.warning {
+    color: red;
+}
+
+.autor, .fecha, .ubicacion, #segundaNoticia {
+    text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+}
+/* h1 { /* no es buenas practicas - lee de arriba hacia abajo 
+    color: green;
+} */
+p {
+    color: red;
+}
+
+.h1-clase {
+    color: yellow;
+}
+
+#h1-id {
+    color: green;
+}
+
+/* la especificidad es mayor  el ID - luego la CLASS y después el selector(etiqueta) */
+
+h1#h1-id\ h1-otroid.h1-clase {
+    color: slateblue;
+}
+
+.h1-clase {
+    color: black !important; /* no es practico - no usar - Pero es el que tiene mas especificidad*/
+}

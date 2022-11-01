@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Reem+Kufi+Ink&display=swap');
+
+.textoUno {
+    font-family: 'Bungee Spice', cursive;
+    font-size: large;
+    color: teal;
+    font-weight: 400;
+    font-style: italic;
+}
+
+html {
+    font-family: cursive;
+    font-size: 14px;
+}
